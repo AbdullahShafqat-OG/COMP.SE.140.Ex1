@@ -1,16 +1,20 @@
 LLM Usage Report
 
-Used tool:
+Used tools:
 Claude Code (Anthropic)
+ChatGPT (OpenAI)
 
 Motivation/reason:
 I had a rough draft of my report and wanted help cleaning up grammar, improving sentence flow, and formatting the text so that it reads more clearly.
+Additionally, I needed to generate a system architecture diagram to visually present the setup of the microservices, so I used ChatGPT for image generation.
 
 How and why it helped:
 Claude Code suggested clearer sentence structures, fixed grammar issues, and improved formatting. This made the report more fluent and easier to read.
+ChatGPT created a visual diagram based on my text-based draft, which helped me present the architecture in a professional and clear way.
 
 Mistakes:
-The AI added fluff content to the report which had to be manually removed
+Claude Code sometimes added fluff content to the report which had to be manually removed.
+ChatGPT’s diagram layout initially needed some adjustments to match exactly what I had described.
 
 Limitations:
-The LLM did not know the course-specific requirements, so I had to make sure the final text matched the assignment instructions and kept all technical content intact.
+The LLMs did not know the course-specific requirements, so I had to make sure the final text and diagram matched the assignment instructions and kept all technical content intact.
