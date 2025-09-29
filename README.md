@@ -4,9 +4,9 @@ Exercise 01 for Continuous Development and Deployment - DevOps
 ## Basic Platform Information
 
 **Hardware:**
-- Processor: [Your CPU model]
-- RAM: [Your RAM amount]
-- Storage: [Your storage type and capacity]
+- Processor: 13th Gen Intel i7
+- RAM: 16GB
+- Storage: 500GB
 
 **Operating System:**
 - OS: Windows 11 with WSL2 (Windows Subsystem for Linux)
@@ -16,6 +16,8 @@ Exercise 01 for Continuous Development and Deployment - DevOps
 **Software Versions:**
 - Docker: 27.2.0
 - Docker Compose: v2.29.2-desktop.2
+
+## System Architecture Diagram
 
 ## Analysis of Status Records
 
