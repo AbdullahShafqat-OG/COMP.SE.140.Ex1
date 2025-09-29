@@ -5,7 +5,7 @@ services:
     ports:
       - "8199:8199"
     volumes:
-      - vStorage:/app/storage
+      - ./:/app/storage
     networks:
       - microservices-net
     depends_on:
@@ -16,7 +16,7 @@ services:
     build: ./service2
     container_name: service-2
     volumes:
-      - vStorage:/app/storage
+      - ./:/app/storage
     networks:
       - microservices-net
     depends_on:

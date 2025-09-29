@@ -25,7 +25,7 @@ function getDiskUsage() {
 function getStatusRecord() {
     const uptimeHours = (Date.now() - startTime) / (1000 * 60 * 60);
     const freeMB = getDiskUsage();
-    const timestamp = new Date().toISOString();
+    const timestamp = new Date().toISOString().split('.')[0] + 'Z';
     
     return `${timestamp}: uptime ${uptimeHours.toFixed(2)} hours, free disk in root: ${freeMB} Mbytes`;
 }
