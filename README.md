@@ -18,3 +18,8 @@ docker-compose down
 docker-compose down --volumes
 rm -f ./vstorage
 ```
+
+## Reports and Logs
+- [Report (PDF)](./Report.pdf)
+- [Docker Status Output](./docker-status.txt)
+- [LLM Usage Report](./llm.txt)
