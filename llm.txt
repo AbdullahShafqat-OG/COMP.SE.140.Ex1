@@ -1,0 +1,16 @@
+LLM Usage Report
+
+Used tool:
+Claude Code (Anthropic)
+
+Motivation/reason:
+I had a rough draft of my report and wanted help cleaning up grammar, improving sentence flow, and formatting the text so that it reads more clearly.
+
+How and why it helped:
+Claude Code suggested clearer sentence structures, fixed grammar issues, and improved formatting. This made the report more fluent and easier to read.
+
+Mistakes:
+The AI added fluff content to the report which had to be manually removed
+
+Limitations:
+The LLM did not know the course-specific requirements, so I had to make sure the final text matched the assignment instructions and kept all technical content intact.
