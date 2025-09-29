@@ -1,0 +1,44 @@
+services:
+  service1:
+    build: ./service1
+    container_name: service-1
+    ports:
+      - "8199:8199"
+    volumes:
+      - vStorage:/app/storage
+    networks:
+      - microservices-net
+    depends_on:
+      - service2
+      - storage
+
+  service2:
+    build: ./service2
+    container_name: service-2
+    volumes:
+      - vStorage:/app/storage
+    networks:
+      - microservices-net
+    depends_on:
+      - storage
+
+  storage:
+    build: ./storage
+    container_name: storage
+    volumes:
+      - storage-data:/app/data
+    networks:
+      - microservices-net
+
+volumes:
+  vStorage:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ./vstorage
+  storage-data:
+
+networks:
+  microservices-net:
+    driver: bridge
